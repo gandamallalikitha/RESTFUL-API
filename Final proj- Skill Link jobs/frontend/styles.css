@@ -1,0 +1,132 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+}
+
+header {
+  background-color: #2c3e50;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #ecf0f1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: #3498db;
+}
+
+.btn.primary:hover {
+  background-color: #2980b9;
+}
+
+.btn.premium {
+  background-color: #e74c3c;
+}
+
+.btn.premium:hover {
+  background-color: #c0392b;
+}
+
+/* New styles for Edit (Warning) and Delete (Danger) buttons */
+.btn.warning {
+  background-color: #f39c12; /* Orange color for edit */
+  color: white;
+}
+
+.btn.warning:hover {
+  background-color: #e67e22;
+}
+
+.btn.danger {
+  background-color: #e74c3c; /* Red color for delete */
+  color: white;
+}
+
+.btn.danger:hover {
+  background-color: #c0392b;
+}
+
+.container {
+  padding: 20px;
+  background-color: white;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form input:focus,
+.form select:focus,
+.form textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.job-list .job-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border-left: 5px solid #3498db;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-card.premium {
+  border-color: #e74c3c;
+  background-color: #ffe6e6;
+}
+
+.job-card h3 {
+  margin-top: 0;
+}
+
+.job-card button {
+  margin-top: 10px;
+  margin-right: 10px;
+}
