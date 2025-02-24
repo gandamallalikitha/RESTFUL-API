@@ -1,1 +1,2 @@
-
+Start the backend server: Navigate to the backend folder, run 'npm install' to install dependencies, and start the server with 'npm start'.
+Run the frontend: Open the desired HTML files index.html in the frontend folder using a browser. In vs code right click and select run in default browser.
